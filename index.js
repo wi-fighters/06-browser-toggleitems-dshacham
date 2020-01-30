@@ -7,8 +7,10 @@
 
         if (ulClasses.includes('d-none')) {
             ul.classList.replace('d-none', 'd-block');
+            button.textContent = 'Hide Destinations';
         } else {
             ul.classList.replace('d-block', 'd-none');
+            button.textContent = 'Show Destinations';
         };
     };
 
